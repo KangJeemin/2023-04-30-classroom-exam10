@@ -18,7 +18,15 @@ root1.removeChild(root.children[0].children[0].children[0])
 let li = document.createElement('li');
 li.textContent=text;
 root2.appendChild(li)
+console.log(root1.childElementCount)
+
+if(root1.childElementCount==0){
+    root.remove(root)
+    setTimeout(()=>{
+        console.log("hello")
+    },1000)
+}
+
 })
 
-console.dir(root)
-a
+
