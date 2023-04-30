@@ -18,8 +18,7 @@ root1.removeChild(root.children[0].children[0].children[0])
 let li = document.createElement('li');
 li.textContent=text;
 root2.appendChild(li)
-
 })
 
 console.dir(root)
-console.dir(root2.children[0])
+a
